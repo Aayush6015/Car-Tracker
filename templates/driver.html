@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Driver Location Sharing</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+</head>
+<body>
+  <h1>Driver Location Sharing</h1>
+  <p>Select your car ID and start sharing your location.</p>
+
+  <label for="car-id">Car ID:</label>
+  <select id="car-id">
+    <option value="1">Car 1</option>
+    <option value="2">Car 2</option>
+    <option value="3">Car 3</option>
+  </select>
+  <button id="start-sharing">Start Sharing Location</button>
+
+  <script src="/static/js/driver.js"></script>
+</body>
+</html>
